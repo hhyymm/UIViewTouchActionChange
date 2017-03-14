@@ -13,6 +13,8 @@
 		E57041A11E781CAE00F52C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E570419F1E781CAE00F52C84 /* Main.storyboard */; };
 		E57041A31E781CAE00F52C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57041A21E781CAE00F52C84 /* Assets.xcassets */; };
 		E57041A61E781CAE00F52C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57041A41E781CAE00F52C84 /* LaunchScreen.storyboard */; };
+		E57041AF1E781CEC00F52C84 /* UITabBar+ChangeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E57041AE1E781CEC00F52C84 /* UITabBar+ChangeAction.m */; };
+		E57041B21E781D3600F52C84 /* UIImageView+ChangeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E57041B11E781D3600F52C84 /* UIImageView+ChangeAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		E57041A21E781CAE00F52C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E57041A51E781CAE00F52C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E57041A71E781CAE00F52C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57041AD1E781CEC00F52C84 /* UITabBar+ChangeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+ChangeAction.h"; sourceTree = "<group>"; };
+		E57041AE1E781CEC00F52C84 /* UITabBar+ChangeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+ChangeAction.m"; sourceTree = "<group>"; };
+		E57041B01E781D3600F52C84 /* UIImageView+ChangeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ChangeAction.h"; sourceTree = "<group>"; };
+		E57041B11E781D3600F52C84 /* UIImageView+ChangeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ChangeAction.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				E570419A1E781CAE00F52C84 /* AppDelegate.m */,
 				E570419C1E781CAE00F52C84 /* ViewController.h */,
 				E570419D1E781CAE00F52C84 /* ViewController.m */,
+				E57041AD1E781CEC00F52C84 /* UITabBar+ChangeAction.h */,
+				E57041AE1E781CEC00F52C84 /* UITabBar+ChangeAction.m */,
+				E57041B01E781D3600F52C84 /* UIImageView+ChangeAction.h */,
+				E57041B11E781D3600F52C84 /* UIImageView+ChangeAction.m */,
 				E570419F1E781CAE00F52C84 /* Main.storyboard */,
 				E57041A21E781CAE00F52C84 /* Assets.xcassets */,
 				E57041A41E781CAE00F52C84 /* LaunchScreen.storyboard */,
@@ -154,6 +164,8 @@
 				E570419E1E781CAE00F52C84 /* ViewController.m in Sources */,
 				E570419B1E781CAE00F52C84 /* AppDelegate.m in Sources */,
 				E57041981E781CAE00F52C84 /* main.m in Sources */,
+				E57041B21E781D3600F52C84 /* UIImageView+ChangeAction.m in Sources */,
+				E57041AF1E781CEC00F52C84 /* UITabBar+ChangeAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
